@@ -1,0 +1,1 @@
+const findLongestWord = str => str.split(' ').reduce((longest, current) => current.length > longest.length ? current : longest, '');
